@@ -98,7 +98,7 @@ input, select, textarea {
 	}
 
 	body {
-		background: #312450;
+		background: #181A26;
 	}
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
@@ -1915,7 +1915,7 @@ input, select, textarea {
 		button.primary,
 		.button.primary {
 			background-color: #ffffff;
-			color: #312450 !important;
+			color: #181A26 !important;
 		}
 
 			input[type="submit"].primary:after,
@@ -2356,7 +2356,7 @@ input, select, textarea {
 
 		select option {
 			color: #ffffff;
-			background: #312450;
+			background: #181A26;
 		}
 
 		select:focus::-ms-value {
@@ -2525,7 +2525,7 @@ input, select, textarea {
 			display: block;
 			background: #ffffff;
 			border-radius: 100%;
-			color: #312450;
+			color: #181A26;
 			text-align: center;
 			line-height: 2.5em;
 			margin: 0 0 1.3em 0;
@@ -3236,11 +3236,15 @@ input, select, textarea {
 			}
 
 		.wrapper.alt {
-			background-color: #181A26;
+			background-color: #181A26; 
 		}
 
 		.wrapper.style1 {
-			background-color: #181A26;
+			/* background-color: #181A26; */
+			/* background-color: -moz-linear-gradient(to right, #da6b64, #e8c47a);
+			background-color: -webkit-linear-gradient(to right, #da6b64, #e8c47a);
+			background-color: -ms-linear-gradient(to right, #da6b64, #e8c47a);
+			background-color: linear-gradient(to right, #da6b64, #e8c47a); */
 		}
 
 		.wrapper.style1-alt {
