@@ -98,7 +98,7 @@ input, select, textarea {
 	}
 
 	body {
-		background: #181A26;
+		background: #312450;
 	}
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
@@ -197,10 +197,10 @@ input, select, textarea {
 		}
 
 			h1.major:after {
-				background-image: -moz-linear-gradient(to right, #5e42a6, #b74e91);
-				background-image: -webkit-linear-gradient(to right, #5e42a6, #b74e91);
-				background-image: -ms-linear-gradient(to right, #5e42a6, #b74e91);
-				background-image: linear-gradient(to right, #5e42a6, #b74e91);
+				background-image: -moz-linear-gradient(to right, #00FA9A, #6FC0B1);
+				background-image: -webkit-linear-gradient(to right, #00FA9A, #6FC0B1);
+				background-image: -ms-linear-gradient(to right, #00FA9A, #6FC0B1);
+				background-image: linear-gradient(to right, #00FA9A, #6FC0B1);
 				-moz-transition: max-width 0.2s ease;
 				-webkit-transition: max-width 0.2s ease;
 				-ms-transition: max-width 0.2s ease;
@@ -1915,7 +1915,7 @@ input, select, textarea {
 		button.primary,
 		.button.primary {
 			background-color: #ffffff;
-			color: #181A26 !important;
+			color: #312450 !important;
 		}
 
 			input[type="submit"].primary:after,
@@ -2356,7 +2356,7 @@ input, select, textarea {
 
 		select option {
 			color: #ffffff;
-			background: #181A26;
+			background: #312450;
 		}
 
 		select:focus::-ms-value {
@@ -2525,7 +2525,7 @@ input, select, textarea {
 			display: block;
 			background: #ffffff;
 			border-radius: 100%;
-			color: #181A26;
+			color: #312450;
 			text-align: center;
 			line-height: 2.5em;
 			margin: 0 0 1.3em 0;
@@ -3236,15 +3236,11 @@ input, select, textarea {
 			}
 
 		.wrapper.alt {
-			background-color: #181A26; 
+			background-color: #181A26;
 		}
 
 		.wrapper.style1 {
-			/* background-color: #181A26; */
-			/* background-color: -moz-linear-gradient(to right, #da6b64, #e8c47a);
-			background-color: -webkit-linear-gradient(to right, #da6b64, #e8c47a);
-			background-color: -ms-linear-gradient(to right, #da6b64, #e8c47a);
-			background-color: linear-gradient(to right, #da6b64, #e8c47a); */
+			background-color: #181A26;
 		}
 
 		.wrapper.style1-alt {
