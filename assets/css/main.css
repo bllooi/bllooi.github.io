@@ -1,11 +1,4 @@
 @import url(fontawesome-all.min.css);
-
-/*
-	Hyperspace by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
-*/
-
 html, body, div, span, applet, object,
 iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
 pre, a, abbr, acronym, address, big, cite,
@@ -2544,19 +2537,19 @@ input, select, textarea {
 				}
 
 				.wrapper.style2 .icon.major:before {
-					color: #DAA520;
+					color: #00fa9a;
 				}
 
 				.wrapper.style2-alt .icon.major:before {
-					color: #DAA520;
+					color: #00fa9a;
 				}
 
 				.wrapper.style3 .icon.major:before {
-					color: #00FA9A;
+					color: #DAA520;
 				}
 
 				.wrapper.style3-alt .icon.major:before {
-					color: #00FA9A;
+					color: #DAA520;
 				}
 
 /* Image */
@@ -3236,31 +3229,39 @@ input, select, textarea {
 			}
 
 		.wrapper.alt {
+			/* Background for index.html landing. Can't use gradients unfortunately */
 			background-color: #181A26;
 		}
 
 		.wrapper.style1 {
+			/* Background for index.html landing. Can't use gradients unfortunately */
 			background-color: #181A26;
 		}
 
 		.wrapper.style1-alt {
-			background-color: #8c1730;
+			/* Background for footer */
+			background-color: #181A26;
 		}
 
 		.wrapper.style2 {
-			background-color: #c15c0f;
+			/* Background for about me section */
+			background-image: -moz-linear-gradient(to right, #da6b64, #daa520);
+			background-image: -webkit-linear-gradient(to right, #da6b64, #daa520);
+			background-image: -ms-linear-gradient(to right, #da6b64, #daa520);
+			background-image: linear-gradient(to right, #da6b64, #daa520);
+			
 		}
 
 		.wrapper.style2-alt {
-			background-color: #a1ab47;
+			background-color: #181A26;
 		}
 
 		.wrapper.style3 {
-			background-color: #19b3bb;
+			background-color: #6fc0b1;
 		}
 
 		.wrapper.style3-alt {
-			background-color: #cfc8fa;
+			background-color: #181A26;
 		}
 
 		.wrapper.fullscreen {
