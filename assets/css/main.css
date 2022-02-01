@@ -1,11 +1,4 @@
 @import url(fontawesome-all.min.css);
-
-/*
-	Hyperspace by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
-*/
-
 html, body, div, span, applet, object,
 iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
 pre, a, abbr, acronym, address, big, cite,
@@ -98,7 +91,7 @@ input, select, textarea {
 	}
 
 	body {
-		background: #181A26;
+		background: #181a26;
 	}
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
@@ -197,10 +190,10 @@ input, select, textarea {
 		}
 
 			h1.major:after {
-				background-image: -moz-linear-gradient(to right, #5e42a6, #b74e91);
-				background-image: -webkit-linear-gradient(to right, #5e42a6, #b74e91);
-				background-image: -ms-linear-gradient(to right, #5e42a6, #b74e91);
-				background-image: linear-gradient(to right, #5e42a6, #b74e91);
+				background-image: -moz-linear-gradient(to right, #00FA9A, #6FC0B1);
+				background-image: -webkit-linear-gradient(to right, #00FA9A, #6FC0B1);
+				background-image: -ms-linear-gradient(to right, #00FA9A, #6FC0B1);
+				background-image: linear-gradient(to right, #00FA9A, #6FC0B1);
 				-moz-transition: max-width 0.2s ease;
 				-webkit-transition: max-width 0.2s ease;
 				-ms-transition: max-width 0.2s ease;
@@ -1915,7 +1908,7 @@ input, select, textarea {
 		button.primary,
 		.button.primary {
 			background-color: #ffffff;
-			color: #181A26 !important;
+			color: #181a26 !important;
 		}
 
 			input[type="submit"].primary:after,
@@ -2356,7 +2349,7 @@ input, select, textarea {
 
 		select option {
 			color: #ffffff;
-			background: #181A26;
+			background: #181a26;
 		}
 
 		select:focus::-ms-value {
@@ -2444,7 +2437,7 @@ input, select, textarea {
 		input[type="radio"]:checked + label:before {
 			background: #ffffff;
 			border-color: #ffffff;
-			color: #b74e91;
+			color: #DAA520;
 			content: '\f00c';
 		}
 
@@ -2525,7 +2518,7 @@ input, select, textarea {
 			display: block;
 			background: #ffffff;
 			border-radius: 100%;
-			color: #181A26;
+			color: #181a26;
 			text-align: center;
 			line-height: 2.5em;
 			margin: 0 0 1.3em 0;
@@ -2536,27 +2529,27 @@ input, select, textarea {
 			}
 
 				.wrapper.style1 .icon.major:before {
-					color: #5e42a6;
+					color: #6FC0B1;
 				}
 
 				.wrapper.style1-alt .icon.major:before {
-					color: #493382;
+					color: #6FC0B1;
 				}
 
 				.wrapper.style2 .icon.major:before {
-					color: #5052b5;
+					color: #00fa9a;
 				}
 
 				.wrapper.style2-alt .icon.major:before {
-					color: #3e4094;
+					color: #00fa9a;
 				}
 
 				.wrapper.style3 .icon.major:before {
-					color: #b74e91;
+					color: #DAA520;
 				}
 
 				.wrapper.style3-alt .icon.major:before {
-					color: #953d75;
+					color: #DAA520;
 				}
 
 /* Image */
@@ -3236,35 +3229,39 @@ input, select, textarea {
 			}
 
 		.wrapper.alt {
-			background-color: #181A26; 
+			/* Background for index.html landing. Can't use gradients unfortunately */
+			background-color: #181A26;
 		}
 
 		.wrapper.style1 {
-			/* background-color: #181A26; */
-			/* background-color: -moz-linear-gradient(to right, #da6b64, #e8c47a);
-			background-color: -webkit-linear-gradient(to right, #da6b64, #e8c47a);
-			background-color: -ms-linear-gradient(to right, #da6b64, #e8c47a);
-			background-color: linear-gradient(to right, #da6b64, #e8c47a); */
+			/* Background for index.html landing. Can't use gradients unfortunately */
+			background-color: #181A26;
 		}
 
 		.wrapper.style1-alt {
-			background-color: #8c1730;
+			/* Background for footer */
+			background-color: #181A26;
 		}
 
 		.wrapper.style2 {
-			background-color: #c15c0f;
+			/* Background for about me section */
+			background-image: -moz-linear-gradient(to right, #da6b64, #daa520);
+			background-image: -webkit-linear-gradient(to right, #da6b64, #daa520);
+			background-image: -ms-linear-gradient(to right, #da6b64, #daa520);
+			background-image: linear-gradient(to right, #da6b64, #daa520);
+			
 		}
 
 		.wrapper.style2-alt {
-			background-color: #a1ab47;
+			background-color: #181A26;
 		}
 
 		.wrapper.style3 {
-			background-color: #19b3bb;
+			background-color: #6fc0b1;
 		}
 
 		.wrapper.style3-alt {
-			background-color: #cfc8fa;
+			background-color: #181A26;
 		}
 
 		.wrapper.fullscreen {
@@ -3374,7 +3371,7 @@ input, select, textarea {
 		display: -webkit-flex;
 		display: -ms-flex;
 		display: flex;
-		background-color: #5e42a6;
+		background-color: #66b3a3;
 		cursor: default;
 		padding: 1.75em 2em;
 	}
